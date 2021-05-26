@@ -33,8 +33,8 @@ for:
     INC     SI
 
     CMP     AH, 0
-    JE      es_par
-    JNE     es_impar
+    JE      par
+    JNE     impar
         
 par:
     MOV     DI, CX
